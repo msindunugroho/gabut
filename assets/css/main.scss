@@ -1,0 +1,16 @@
+@use 'modules/brand';
+@use 'modules/nav';
+@use 'modules/hero';
+@use 'modules/notes';
+@use 'modules/footer';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #190f2b;
+}

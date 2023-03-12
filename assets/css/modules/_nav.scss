@@ -1,0 +1,81 @@
+nav {
+  width: 380px;
+  height: 700px;
+  position: fixed;
+  right: -220px;
+  top: 10px;
+  z-index: 10;
+
+
+  .container {
+    width: 100%;
+    height: 100%;
+
+    .nav-icon-menu {
+      width: 100%;
+      height: max-content;
+      position: relative;
+      margin-bottom: 30px;
+
+      span {
+        font-size: 37px;
+        color: white;
+        cursor: default;
+      }
+    }
+
+    .nav-bar {
+      width: 100%;
+      height: max-content;
+      display: flex;
+      flex-direction: column;
+
+
+      a {
+        width: 45%;
+        padding: 15px 10px;
+        background-color: aqua;
+        margin-bottom: 7px;
+        border-radius: 5px 0 0 5px;
+        font-weight: 700;
+        background-color:#7827e6;
+        color: white;
+        text-decoration: none;
+        position: relative;
+        left: 162px;
+
+        &:first-child{
+          transition: .3s cubic-bezier(0.2, 0.99, 0.58, 0.98);
+        }
+        &:nth-child(2) {
+          transition: .3s cubic-bezier(0.2, 0.99, 0.58, 0.98) .1s;
+        }
+        &:nth-child(3) {
+          transition: .3s cubic-bezier(0.2, 0.99, 0.58, 0.98) .2s;
+        }
+        &:nth-child(4) {
+          transition: .3s cubic-bezier(0.2, 0.99, 0.58, 0.98) .3s;
+        }
+        &:last-child {
+          transition: .3s cubic-bezier(0.2, 0.99, 0.58, 0.98) .4s;
+        }
+
+
+      }
+    }
+  }
+}
+
+
+@media (max-width: 767.98px) {
+  nav {
+    right: -270px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  nav {
+    right: -285px;
+  }
+}
+

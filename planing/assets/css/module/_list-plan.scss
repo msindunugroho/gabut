@@ -1,0 +1,22 @@
+section#list-plan {
+    padding: 100px 30px;
+    width: 100%;
+    height: max-content;
+
+    ol {
+        li {
+            color: white;
+            margin: 10px 0;
+            p {
+                color: white;
+                margin: 0 0 0 10px;
+                text-align: justify;
+
+               span {
+                color: green;
+                font-style: italic;
+               } 
+            }
+        }
+    }
+}
