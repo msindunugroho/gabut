@@ -138,13 +138,19 @@ section#list .container .card-container .card {
   border-left: 3px solid #7827e6;
   border-radius: 0 7px 7px 0;
   text-indent: 0;
+  position: relative;
 }
 section#list .container .card-container .card .doted {
   width: 10px;
   height: 10px;
   margin-right: 10px;
-  background-color: white;
+  background-color: #9458e7;
   border-radius: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -6px;
+  margin: auto;
 }
 section#list .container .card-container .card p {
   width: 95%;
