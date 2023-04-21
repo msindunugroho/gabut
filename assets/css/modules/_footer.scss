@@ -3,6 +3,8 @@ footer {
   background-color: #000000;
   width: 100%;
   height: max-content;
+  position: relative;
+  z-index: 10;
 
   .container {
     padding: 0px 30px 100px 30px;
