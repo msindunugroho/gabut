@@ -12,11 +12,17 @@ section#list-plan {
                 margin: 0 0 0 10px;
                 text-align: justify;
 
-               span {
+                &.line-trough {
+                    text-decoration: line-through;
+                    color: yellow;
+                }
+
+              
+            }
+            span {
                 color: green;
                 font-style: italic;
                } 
-            }
         }
     }
 }

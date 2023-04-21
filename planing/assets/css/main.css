@@ -102,7 +102,11 @@ section#list-plan ol li p {
   margin: 0 0 0 10px;
   text-align: justify;
 }
-section#list-plan ol li p span {
+section#list-plan ol li p.line-trough {
+  text-decoration: line-through;
+  color: yellow;
+}
+section#list-plan ol li span {
   color: green;
   font-style: italic;
 }
