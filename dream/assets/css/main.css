@@ -177,6 +177,8 @@ footer {
   width: 100%;
   height: -moz-max-content;
   height: max-content;
+  position: relative;
+  z-index: 10;
 }
 footer .container {
   padding: 0px 30px 100px 30px;
